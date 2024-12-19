@@ -184,7 +184,7 @@ function mongoLoop() {
 mongoLoop();
 
 // fire it up!
-const port = process.env.CATALOGUE_SERVER_PORT || '8080';
+const port = process.env.CATALOGUE_SERVER_PORT || '80';
 const MONGO = process.env.MONGO || 'false';
 const DOCUMENTDB = process.env.DOCUMENTDB || 'false';
 
